@@ -1,0 +1,64 @@
+ul#vertical-multilevel-menu, #vertical-multilevel-menu ul
+{
+	margin: 0px;
+	padding: 0; 
+	list-style: none; 
+	font-size:14px;
+	font-family: Trebuchet MS, sans-serif;
+}
+#vertical-multilevel-menu ul ul {
+	margin-bottom: 10px;
+}
+
+#vertical-multilevel-menu li a
+{ 
+	display: block; 
+	text-decoration: none; 
+}
+
+#vertical-multilevel-menu li a.root-item
+{
+	color:#999;
+	font-size:20px;
+	padding:0px 0px 0px 15px;
+	margin: 0px 0px 15px 0px;
+	background:#fff url(/bitrix/templates/thomifelgen/img/red.png) left no-repeat;
+	border:none;
+	line-height: 100%;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+
+#vertical-multilevel-menu li a.item2level
+{ 
+	color: #000; 
+	font-size:14px;
+	margin: 0px 0px 0px 7px;
+	padding: 0px 0px 10px 10px; 
+	background: #fff url(/bitrix/templates/thomifelgen/img/013.gif) left top no-repeat;
+}
+
+#vertical-multilevel-menu li a.item2level-selected
+{ 
+	background: #fff url(/bitrix/templates/thomifelgen/img/013a.gif) left top no-repeat;
+}
+
+#vertical-multilevel-menu li a.item3level
+{ 
+	color: #000; 
+	font-size:14px;
+	margin: 0px 0px 0px 7px;
+	padding: 0px 0px 10px 10px; 
+	text-decoration: underline;
+}
+
+#vertical-multilevel-menu li a.item3level:hover {
+	text-decoration: none;
+}
+
+/* Holly Hack. IE Requirement \*/ 
+* html ul#vertical-multilevel-menu li { float: left; height: 1%; } 
+* html ul#vertical-multilevel-menu li a { height: 1%; } 
+/* End */ 
+
+

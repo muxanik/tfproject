@@ -1,0 +1,93 @@
+/*-----------------------------------------------------------------------------
+
+KENBURNER RESPONSIVE BASIC STYLES OF HTML DOCUMENT
+
+Screen Stylesheet
+
+version:   	1.0
+date:      	07/27/11
+author:		themepunch
+email:     	support@themepunch.com
+website:   	http://www.themepunch.com
+-----------------------------------------------------------------------------*/
+
+
+
+.boxedcontainer		{	max-width: 1170px; margin:auto; padding:0px 30px;}
+
+/*********************************************
+	-	SETTINGS FOR BANNER CONTAINERS	-
+**********************************************/
+
+.tp-banner-container{
+	width:100%;
+	position:relative;
+	padding:0;
+
+}
+
+.tp-banner{
+	width:100%;
+	position:relative;
+}
+
+.tp-banner-fullscreen-container {
+		width:100%;
+		position:relative;
+		padding:0;
+}
+.largeboldblackthomi 
+{
+	font-size: 31px;
+	line-height: 32px;
+	font-weight: 800;
+	font-family: 'Open Sans';
+	color: #000000;
+	text-decoration: none;
+	background-color: transparent;
+	border-width: 0px;
+	border-color: #ffd658;
+	border-style: none;
+}
+.largeboldblackthomired
+{
+	font-size: 50px;
+	line-height: 52px;
+	font-weight: 800;
+	font-family: "Open Sans";
+	color: #ff3838;
+	text-decoration: none;
+	background-color: transparent;
+	border-width: 0px;
+	border-color: #ffd658;
+	border-style: none;
+}
+.modernmediumlightthomi
+{
+	font-size: 40px;
+	line-height: 43px;
+	font-weight: 300;
+	font-family: "Open Sans", sans-serif;
+	color: #000000;
+	text-decoration: none;
+	text-shadow: none;
+	margin: 0px;
+	white-space: nowrap;
+	background-color: transparent;
+	border-width: 0px;
+	border-color: #000000;
+	border-style: none;
+}
+.largeboldwhitethomi
+{
+	font-size: 39px;
+	line-height: 41px;
+	font-weight: 800;
+	font-family: "Open Sans";
+	color: #ffffff;
+	text-decoration: none;
+	background-color: transparent;
+	border-width: 0px;
+	border-color: #ffd658;
+	border-style: none;
+}

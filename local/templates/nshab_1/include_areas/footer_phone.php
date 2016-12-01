@@ -1,0 +1,1 @@
+<?if (isset($_COOKIE['lcheck'])):?>+7 (495) 979-20-01<?endif;?>

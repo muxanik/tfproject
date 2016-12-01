@@ -1,0 +1,263 @@
+#wsm-callbackpro {
+	position: absolute !important;
+	margin-left: 0px;
+	margin-top: 10px;
+	}
+	
+#wsm-callbackpro .link{
+	position: relative;
+	display: inline-block;
+	line-height: 100%;
+	font-size: 16px;
+	color: #2A99EA;
+	border-bottom: 1px dashed #2A99EA !important;
+	text-decoration: none;
+	cursor: pointer;
+	}
+
+
+#wsm-callbackpro .window{
+	position: absolute !important;
+	top: -15px;
+	z-index: 2000;
+	width: 250px;
+	
+	border: 0px solid #cccccc;	
+	padding: 15px 15px 10px 15px;
+	background: #fff;
+	display: none;
+	
+	text-align: left !important;
+	
+	-webkit-border-radius: 7px;
+     -moz-border-radius: 7px;
+          border-radius: 7px;
+
+	-webkit-box-shadow: 0 0px 10px rgba(0, 0, 0, 0.6);
+		-moz-box-shadow: 0 0px 10px rgba(0, 0, 0, 0.6);
+			box-shadow: 0 0px 10px rgba(0, 0, 0, 0.6);
+}
+
+#wsm-callbackpro .window.left{
+	left: -15px;
+}
+#wsm-callbackpro .window.right{
+	right: -15px;
+}
+
+#wsm-callbackpro .window a.close{
+	position: absolute;
+	display: block;
+    width: 11px; height: 10px;
+	margin: 8px 7px 0px 0px;
+	font-size: 0px;
+	right: 0px;
+    top: 0px;
+
+	text-decoration: none;
+	cursor: pointer;
+	font-weight: bold;
+    background-image: url(images/close11.png);
+    background-position: 0 0 ;
+    background-repeat: no-repeat;
+}
+
+#wsm-callbackpro .window a.close:hover{
+    background-position: 0 -11px;
+}
+
+#wsm-callbackpro .window h2{ 
+	font-size: 16px !important; 
+	color: #0078A5; 
+	margin: 0px 0px 6px 0px; 
+	padding: 0px 0px 4px 0px; 
+	cursor: pointer; 
+	display: block; 
+	border: none; 
+	line-height: 100%; 
+	text-align: left !important;
+	}
+
+#wsm-callbackpro .window form {margin-top: 12px;}
+
+#wsm-callbackpro .window .line{ display: block; margin: 0px 0px 10px 0px; }
+#wsm-callbackpro .window .line.captcha-code {padding: 6px 0 0 0;}
+
+#wsm-callbackpro .window .line .red{color: red;}	
+#wsm-callbackpro .window .line label{ display: block; width: 100%; margin: 2px 0px 4px 0px; clear: both; color: #414141;}
+#wsm-callbackpro .window .line label span {font-size: 14px; color: #333;}
+#wsm-callbackpro .window .line  .hour {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	display: block;
+}
+
+#wsm-callbackpro .window input[type="text"], #wsm-callbackpro select{
+    margin: 0px 0px;
+    color: #313131;
+    width: 100%;
+    height: 32px !important;
+    padding: 4px 9px 4px 9px;
+    line-height: 28px;
+    font-size: 15px;
+    border: 1px solid #c1c1c1;
+
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #111;
+
+    -webkit-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+#wsm-callbackpro .window input[type="text"]::-webkit-input-placeholder {font-size: 15px; color: #ccc;}
+#wsm-callbackpro .window input[type="text"]:-moz-placeholder {font-size: 15px; color: #ccc;}
+
+#wsm-callbackpro .window select{
+	width: 100%;
+	}
+
+#wsm-callbackpro .window input[type="text"]:hover, #wsm-callbackpro input[type="text"]:active{
+    -webkit-box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+
+    -webkit-transition: box-shadow linear 0.4s;
+    -moz-transition: box-shadow linear 0.4s;
+    -o-transition: box-shadow linear 0.4s;
+    transition: box-shadow linear 0.4s;
+}
+
+
+#wsm-callbackpro .window input[type="text"].error, #wsm-callbackpro input[type="text"].error:hover{
+	border: 1px solid #f00;
+	}
+
+
+#wsm-callbackpro .window  .line  .hour em{
+	margin-right: 5px;
+	display: inline-block;
+	min-width: 10px;
+	color: #414141;
+}
+	
+#wsm-callbackpro .window .hour input[type="text"]{width: 65px;}
+#wsm-callbackpro .window .hour input[type="text"]:first{ margin-right: 20px;}
+
+
+
+#wsm-callbackpro .window input[type="submit"]{
+
+	position: relative;
+    cursor: pointer;
+	width: 50%;
+	float: right;
+	cursor: pointer;
+	border: 0px;
+	background: #158923;
+	margin: 10px 0px 4px 0;
+
+    display: inline-block;
+    padding: 5px 10px 6px;
+    color: #fff;
+	zoom: 1;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 1;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+    
+	border: solid 1px #0076a3;
+	background: #0095cd;
+        background: -o-linear-gradient(#00adee, #0078a5);
+	background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+	background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#00adee', endColorstr='#0078a5');
+}
+
+
+#wsm-callbackpro .window input[type="submit"]:disabled{
+	background: #ccc;
+	
+	-webkit-box-shadow: 0 0px 4px rgba(250, 0, 0, 0.5);
+		-moz-box-shadow: 0 0px 4px rgba(250, 0, 0, 0.5);
+			box-shadow: 0 0px 4px rgba(250, 0, 0, 0.5);
+			
+	-webkit-transition: box-shadow linear 0.2s;
+     -moz-transition: box-shadow linear 0.2s;
+       -o-transition: box-shadow linear 0.2s;
+          transition: box-shadow linear 0.2s;				
+}
+
+#wsm-callbackpro .window .message{
+
+	margin: 3px 0 10px 0;
+	line-height: 150%;	
+	width: 220px;
+    padding: 0px;
+	font-size: 12px;
+	-moz-box-sizing: border-box; /* ��� Firefox */
+    -webkit-box-sizing: border-box; /* ��� Safari � Chrome */
+    box-sizing: border-box; /* ��� IE � Opera */
+	}
+#wsm-callbackpro .window .message.error{
+    width: 250px;
+	color: red;
+    padding: 5px;
+    border: 1px solid #f00;
+	}
+#wsm-callbackpro .window .message.sucess{
+    color: green;
+    font-size: 14px;
+	}
+
+
+
+
+
+#wsm-callbackpro-calltime-slider {
+    height: .5em;
+    width: 100%;
+
+    margin: 10px 0 17px 0; border: 1px solid #ccc;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+	width: 100%;
+}
+#wsm-callbackpro-calltime-slider .ui-slider-handle {
+
+    height: 9px;
+	width: 9px;
+
+    margin-top: 0px;
+    cursor: pointer;
+
+    background: #fff;
+    border: 3px solid    #0095cd;
+
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    border-radius: 13px;
+
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.8);
+    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.8);
+}
+
+#wsm-callbackpro-calltime-slider .ui-slider-range {
+    opacity: 0.8;
+    background: #0095cd;
+    background: -o-linear-gradient(#00adee, #0078a5); /* CSS3: ��� � ���������� ��� Opera 11+ */
+    background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5)); /* CSS3: ��� � ���������� ��� Safari, Chrome */
+    background: -moz-linear-gradient(top,  #00adee,  #0078a5); /* CSS3: ��� � ���������� ��� FireFo 3.6+ */
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#00adee', endColorstr='#0078a5'); /* CSS3: ��� � ���������� ��� IE */
+}
+

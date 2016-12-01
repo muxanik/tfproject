@@ -1,0 +1,113 @@
+.tpl_default{position: relative;}
+.tpl_default .asterisk{
+	color: #FF3737;
+    font-size: 13px;
+    font-weight: bold;
+}
+.tpl_default .api-submit{padding: 15px 5px;position: relative;}
+.tpl_default .api-file-ext{font-size: 11px; color: #6A6A6A}
+
+.tpl_default input[type="text"], .tpl_default textarea, .tpl_default select{vertical-align: middle;}
+.tpl_default input[type="text"]:focus, .tpl_default textarea:focus, .tpl_default select:focus{
+    -webkit-box-shadow: 0 1px #FFFFFF, 0 2px 6px 2px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:    0 1px #FFFFFF, 0 2px 6px 2px rgba(0, 0, 0, 0.1) inset;
+    box-shadow:         0 1px #FFFFFF, 0 2px 6px 2px rgba(0, 0, 0, 0.1) inset;
+}
+
+
+/* ========================================================================
+   Component:  JS Error Module
+ ========================================================================== */
+.tpl_default [class*="ts-field-"]{
+    display: inline-block;
+    margin-left: 6px;
+    width: 14px;
+    height: 12px;
+    background-image: url("images/note.png");
+    background-repeat: no-repeat;
+}
+.tpl_default .ts-field-error{background-position: 0 0;}
+.tpl_default .ts-field-saccess{background-position: 0 -14px;}
+
+
+/* ========================================================================
+   Component: Captcha
+ ========================================================================== */
+.tpl_default .mf-captcha{padding: 5px;}
+.tpl_default .mf-captcha-wrap{display: inline-block;}
+.tpl_default .mf-captcha .mf-text{margin:0 0 3px;font-size: 13px;}
+.tpl_default .mf-captcha img{margin: 0 0 10px;}
+.tpl_default .mf-captcha input[type="text"]{width: 168px;text-transform: uppercase;}
+
+
+
+/* ========================================================================
+   Component: Alert
+ ========================================================================== */
+.ts-alert{
+    background: none repeat scroll 0 0 #EBF7FD;
+    border: 1px solid rgba(45, 112, 145, 0.3);
+    border-radius: 4px;
+    color: #2D7091;
+    padding: 10px;
+    text-shadow: 0 1px 0 #FFFFFF;
+    margin: 15px 0;
+    display: block;
+    font-size: 14px;
+    line-height: 21px;
+}
+.ts-alert p{margin: 0 !important; padding: 0 !important;}
+.ts-alert-success {
+    background: none repeat scroll 0 0 #F2FAE3;
+    border-color: rgba(101, 159, 19, 0.3);
+    color: #659F13;
+}
+.ts-alert-warning {
+    background: none repeat scroll 0 0 #FFFCEB;
+    border-color: rgba(226, 131, 39, 0.3);
+    color: #E28327;
+}
+.ts-alert-danger {
+    background: none repeat scroll 0 0 #FFF1F0;
+    border-color: rgba(216, 80, 48, 0.3);
+    color: #D85030;
+}
+
+
+/* ========================================================================
+   Component: File inputs
+ ========================================================================== */
+.tpl_default .api-file-wrap{position: relative;float: left;width:100%;padding:0 10px;}
+.tpl_default .api-file-wrap input[type="file"]{display: none;}
+.tpl_default .api-file-name{color: #000000;font-size: 14px;}
+.tpl_default .api-file-string{overflow: hidden;margin: 0 0 5px;text-align:center;}
+.tpl_default input[type="submit"], .tpl_default .api-btn{
+
+}
+.tpl_default input[type="submit"]:hover, .tpl_default .api-btn:hover{
+   background: #f72e3f;
+  text-decoration: none;
+}
+
+.tpl_default input[type="submit"]:active, .tpl_default .api-btn:active{
+    -webkit-box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.5) inset;
+    -moz-box-shadow:    0 1px 3px -1px rgba(0, 0, 0, 0.5) inset;
+    box-shadow:         0 1px 3px -1px rgba(0, 0, 0, 0.5) inset;
+}
+
+.tpl_default .api-form-row{overflow: hidden;}
+
+/* v1.2.9 */
+.tpl_default .option-qroup{display: inline-block;vertical-align: middle;}
+.tpl_default .date-group input[type="text"]{margin-bottom: 5px;}
+
+/* v1.3.4 */
+.tpl_default .hidden_protection {
+    background: transparent !important;
+    border: 0 none !important;
+    box-shadow: none !important;
+    color: transparent !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+}
