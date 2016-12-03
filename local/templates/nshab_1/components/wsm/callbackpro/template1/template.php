@@ -152,18 +152,7 @@ foreach($arResult["FORM_FIELDS"] as $CODE => $arField)
                 </div>
             <?endforeach;?>
 
-            <?if($arParams["FORM_CAPTCHA"] == 'Y'):?>
-                <input type="hidden" name="captcha_sid" value="<?=$arResult["CAPTCHA_CODE"]?>"/>
 
-                <div class="line captcha-code">
-                    <img class="captcha" name="captcha" src="/bitrix/tools/captcha.php?captcha_sid=<?=$arResult["CAPTCHA_CODE"]?>" width="180" height="40" alt="CAPTCHA" />
-
-                    <div class="captcha">
-                        <label for="wsm_callback_captcha_word"><?=Loc::getMessage("WSM_CBP_CAPTCHA_CODE")?>:<span class="red">*</span></label>
-                        <input type="text" name="captcha_word" maxlength="50" value="" placeholder="<?=Loc::getMessage("WSM_CBP_CAPTCHA_CODE_PH")?>"/>
-                    </div>
-                </div>
-            <?endif;?>
 
             <div class="line">
                 <input class="btn wwb" type="submit" value="<?=Loc::getMessage("WSM_CBP_SEND_FORM")?>"></button>
