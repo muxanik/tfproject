@@ -1,4 +1,4 @@
-<div style="height:16px;width:100%" class="start">
+<div style="height:16px;width:100%;white-space: nowrap;" class="start">
         <div class="swiper-wrapper">
 <?$g = 1;?>
 <?

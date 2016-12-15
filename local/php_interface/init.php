@@ -1,7 +1,19 @@
 <?
+if (file_exists($_SERVER["DOCUMENT_ROOT"] . '/bitrix/php_interface/functions.php')) {
+    require_once($_SERVER["DOCUMENT_ROOT"] . '/bitrix/php_interface/functions.php');
+}
 AddEventHandler("main", "OnEndBufferContent", "deleteKernelJs");
 AddEventHandler("main", "OnEndBufferContent", "deleteKernelCss");
 AddEventHandler("iblock", "OnBeforeIBlockElementAdd", "OnBeforeIBlockElementAddHandler");
+AddEventHandler("main", "OnEpilog", "OnEpilogHandler");
+function OnEpilogHandler()
+{
+    global $APPLICATION;
+    if (!defined('ERROR_404') && intval($_GET["PAGEN_3"]) > 0) {
+        $APPLICATION->SetPageProperty("title", $APPLICATION->GetPageProperty("title") . " – " . intval($_GET["PAGEN_3"]) . " страница");
+    }
+}
+
 
 function deleteKernelJs(&$content) {
     global $USER, $APPLICATION;

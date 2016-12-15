@@ -44,13 +44,13 @@ $this->setFrameMode(true);
 
 <div class="col-2">
 <a href="<?=$ar_fields["DETAIL_PAGE_URL"]?>">
-	<div style="width:50%;float:left;padding-right:5px;">
+	<div style="width:50%;float:left;padding-right:5px;position: relative;">
 				<div style="background: url(<?=CFile::GetPath($ar_fields["PROPERTY_IMAGES_VALUE"]);?>);background-position: center;height: 220px;background-size:cover;">
-					<div style="float:right;background: rgba(255, 255, 255, 0.78);width: 50%;text-align: center;font-size: 25px;line-height: 28px;"><div style="position: relative;">До</div></div></div>
+					<div style="position: absolute; bottom:0; right:0;background: rgba(255, 255, 255, 0.78);width: 50%;text-align: center;font-size: 25px;line-height: 28px;"><div style="position: relative;">До</div></div></div>
 	</div>
-	<div style="width:50%;float:left;padding-left:5px;">
+	<div style="width:50%;float:left;padding-left:5px;position: relative;">
 				<div style="background: url(<?=CFile::GetPath($ar_fields["DETAIL_PICTURE"]);?>);background-position: center;height: 220px;background-size:cover;">
-					<div style="float:right;background: rgba(255, 255, 255, 0.78);width: 50%;text-align: center;font-size: 25px;line-height: 28px;"><div style="position: relative;">После</div></div></div>
+					<div style="position: absolute; bottom:0; right:0;background: rgba(255, 255, 255, 0.78);width: 50%;text-align: center;font-size: 25px;line-height: 28px;"><div style="position: relative;">После</div></div></div>
 	</div>
 </a>
 	</div>

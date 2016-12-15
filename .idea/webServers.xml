@@ -3,7 +3,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="ac7cccae-843c-4fcb-b7e0-c3dbfd25de14" name="thomi" url="http://thomifelgen.ru">
-        <fileTransfer host="5.45.124.13" port="1234" rootFolder="/home/bitrix/ext_www/thomifelgen.ru" accessType="SFTP" username="bitrix">
+        <fileTransfer host="5.45.124.13" port="1234" rootFolder="/home/bitrix/ext_www/thomifelgen.ru" accessType="SFTP" password="dfd2dff3dfd3dfdfdfd2dfc7dfd0dfcbdf9edffddfc3dffddfc3dffbdff2df9ddf98dfe4dfccdfc5" username="bitrix">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>

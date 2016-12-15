@@ -19,7 +19,7 @@ $APPLICATION->AddHeadString('<meta property="og:description" content="' . $arRes
 		<?endif;?>
 		</div>
 			<div style="position:relative;">
-
+				<?if($arResult["SECTION"]["ID"] == 8):?><div class="waranty"><img src="/upload/medialibrary/78b/5_years_warranty.png" title="Гарантия 5 лет"></div><?endif;?>
 				<img style="" src="<?=$arResult['PICTURE_PREVIEW']['SRC']?>" alt="<?=$arResult["PROPERTIES"]["IMG_ALT"]["VALUE"][0]?>" title="<?=$arResult["PROPERTIES"]["IMG_ALT"]["VALUE"][0]?>">
 				<div class="catalog_element_img_text"><?=$arResult["DETAIL_PICTURE"]["DESCRIPTION"]?></div>
 			</div>
@@ -49,7 +49,7 @@ $tempFileName2 = $tempFileName1->Fetch();
 			<div class="youtube"
 				 id="<?if(preg_match("/rel=0/",$arResult["PROPERTIES"]["VIDEO"]["~VALUE"])):?><?=stristr($arResult["PROPERTIES"]["VIDEO"]["~VALUE"],'?', true)?><?else:?><?=$arResult["PROPERTIES"]["VIDEO"]["~VALUE"]?><?endif;?>"
 				 style="width: 100%; height: 415px;"
-				 data-params="rel=0">
+					 data-params="rel=0">
 			</div>
 			<?endif;?>
 		</div>
@@ -277,3 +277,6 @@ if($ar_res = $res->GetNext())?>
 </div>
 <?endif;?>
 
+<pre>
+	<?print_r($arResult["SECTION"]["ID"])?>
+</pre>
